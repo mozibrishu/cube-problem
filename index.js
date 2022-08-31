@@ -13,9 +13,8 @@ function firstOp() {
 
 firstOp();
 cube.addEventListener('animationend', () => {
-    
-    cube.classList.remove('cubepic-animation');
     cube.classList.add('hidden');
+    cube.classList.remove('cubepic-animation');
     originalVideo.innerHTML = videoHtml;
 });
 
