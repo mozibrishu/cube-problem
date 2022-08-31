@@ -9,7 +9,20 @@ body {
     position: relative;
     overflow: hidden;
 }
+.cube{
+    opacity: 1;
+}
 
+#myVideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.opacityTransition{
+    opacity: 0;
+    transition: opacity .5s;
+}
 
 .scene {
     width: 300px;
@@ -68,7 +81,7 @@ body {
 }
 
 .cubepic-animation {
-    animation: cubepic 10s infinite;
+    animation: cubepic 10s;
 }
 
 @keyframes cubepic {
